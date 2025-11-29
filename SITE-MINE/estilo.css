@@ -1,0 +1,719 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    overflow-x: hidden;
+}
+
+.fundo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.titu1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 200px;
+    width: 970px;
+    border: 10px solid #959698;
+    border-radius: 8px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    margin-bottom: 40px;
+}
+
+.nome1 {
+    position: absolute;
+    top: 34px;
+    left: 274px;
+    width: 400px;
+    height: auto;
+}
+
+.logo {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+
+.table {
+    position: absolute;
+    width: 90px;
+    height: auto;
+    top: 40px;
+    left: 820px;
+}
+
+.lugartxt {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 610px;
+    width: 970px;
+    border: 10px solid #959698;
+    border-radius: 8px;
+    position: absolute;
+    top: 290px;
+    left: 100px;
+    margin-bottom: 40px;
+}
+
+.musica {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 600px;
+    width: 500px;
+    border: 10px solid #959698;
+    border-radius: 8px;
+    position: absolute;
+    top: 85px;
+    left: 1300px;
+}
+
+.porco {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 36px;
+    left: 80px;
+}
+
+.audio1 {
+    position: absolute;
+    top: 400px;
+    left: 100px;
+}
+
+.voltar {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 150px;
+    width: 500px;
+    border: 10px solid #959698;
+    border-radius: 8px;
+    position: absolute;
+    top: 710px;
+    left: 1300px;
+    color: white;
+    font-size: 35px;
+}
+
+.txt1 {
+    position: absolute;
+    top: 100px;
+    left: 123px;
+    width: 700px;
+    height: auto;
+    text-align: justify;
+    font-size: 35px;
+}
+
+.nome2 {
+    position: absolute;
+    top: 40px;
+    left: 254px;
+    width: 470px;
+    height: auto;
+}
+
+.ovelha {
+    position: absolute;
+    width: 270px;
+    height: auto;
+    top: 36px;
+    left: 100px;
+}
+
+.audio2 {
+    position: absolute;
+    top: 400px;
+    left: 100px;
+}
+
+.nome3 {
+    position: absolute;
+    top: 20px;
+    left: 264px;
+    width: 450px;
+    height: auto;
+}
+
+.vaca {
+    position: absolute;
+    width: 270px;
+    height: auto;
+    top: 36px;
+    left: 100px;
+}
+
+.audio3 {
+    position: absolute;
+    top: 400px;
+    left: 100px;
+}
+
+.imglg {
+    position: absolute;
+    width: 135px;
+    height: auto;
+    top: 50px;
+    left: 20px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    cursor: pointer;
+}
+
+.imgvini {
+    position: absolute;
+    width: 135px;
+    height: auto;
+    top: 226px;
+    left: 20px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    cursor: pointer;
+}
+
+.imgauten {
+    position: absolute;
+    width: 135px;
+    height: auto;
+    top: 400px;
+    left: 20px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    cursor: pointer;
+}
+
+.txtlg {
+    position: absolute;
+    top: 70px;
+    left: 180px;
+    width: 700px;
+    height: auto;
+    text-align: justify;
+    font-size: 30px;
+}
+
+.txtvini {
+    position: absolute;
+    top: 225px;
+    left: 180px;
+    width: 700px;
+    height: auto;
+    text-align: justify;
+    font-size: 30px;
+}
+
+.txtauten {
+    position: absolute;
+    top: 400px;
+    left: 180px;
+    width: 700px;
+    height: auto;
+    text-align: justify;
+    font-size: 30px;
+}
+
+.imglg:hover,
+.imgvini:hover,
+.imgauten:hover,
+.voltar:hover,
+.botao13:hover {
+    transform: translateY(-8px) scale(1.06);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.45);
+}
+
+.vaca:hover,
+.porco:hover,
+.ovelha:hover,
+.logo:hover,
+.table:hover ,
+.papagaio1:hover,
+.lobo:hover,
+.cavalo:hover,
+.papagaio:hover ,
+.galinha:hover,
+.aranha:hover,
+.zumbi:hover,
+.entidade:hover,
+.herebrine:hover,
+.lick:hover {
+    transform: translateY(-8px) scale(1.06);
+
+}
+
+
+.imgcreate {
+    position: absolute;
+    width: 135px;
+    height: auto;
+    top: 50px;
+    left: 20px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    cursor: pointer;
+}
+
+.imgmeka {
+    position: absolute;
+    width: 135px;
+    height: auto;
+    top: 226px;
+    left: 20px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    cursor: pointer;
+}
+
+.imgalex {
+    position: absolute;
+    width: 135px;
+    height: auto;
+    top: 400px;
+    left: 20px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    cursor: pointer;
+}
+
+.txtcreate {
+    position: absolute;
+    top: 60px;
+    left: 180px;
+    width: 700px;
+    height: auto;
+    text-align: justify;
+    font-size: 30px;
+}
+
+.txtmeka {
+    position: absolute;
+    top: 225px;
+    left: 180px;
+    width: 700px;
+    height: auto;
+    text-align: justify;
+    font-size: 30px;
+}
+
+.txtalex {
+    position: absolute;
+    top: 400px;
+    left: 180px;
+    width: 700px;
+    height: auto;
+    text-align: justify;
+    font-size: 30px;
+}
+
+.nome4 {
+    position: absolute;
+    top: 40px;
+    left: 306px;
+    width: 300px;
+    height: auto;
+}
+
+.galinha {
+    position: absolute;
+    width: 270px;
+    height: auto;
+    top: 36px;
+    left: 100px;
+}
+
+.botao13 {
+    background-color: transparent;
+    height: 120px;
+    width: 400px;
+    border: 10px solid #959698;
+    border-radius: 8px;
+    position: relative;
+    top: 110px;
+    left: 275px;
+    color: white;
+    font-size: 35px;
+    display: block;
+    margin: 20px 0;
+    padding: 10px 16px;
+}
+
+.nome6 {
+    position: absolute;
+    top: 10px;
+    left: 150px;
+    width: auto;
+    height: 170px;
+}
+
+.voltar2 {
+    background-color: transparent;
+    height: 120px;
+    width: 300px;
+    border: 10px solid #959698;
+    border-radius: 8px;
+    position: absolute;
+    top: 690px;
+    left: 1490px;
+    color: white;
+    font-size: 35px;
+}
+
+.lugartxt2 {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 610px;
+    width: 1720px;
+    border: 10px solid #959698;
+    border-radius: 8px;
+    position: absolute;
+    top: 240px;
+    left: 100px;
+}
+
+.titu2 {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 200px;
+    width: 1720px;
+    border: 10px solid #959698;
+    border-bottom: none ;
+    border-radius: 8px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+.espada , .machado , .picareta , .pa , .enchada {
+    position: relative;
+    width: 250px;
+    height: auto;
+    top: 85px;
+    left: 200px;
+    margin: 40px 0;
+     margin-right: 15px
+}
+
+.nomeespada {
+    position: absolute;
+    top: 300px;
+    left: 420px;
+    font-size: 40px;
+}
+
+.nomemachado {
+    position: absolute;
+    top: 300px;
+    left: 655px;
+    font-size: 40px;
+}
+.nomepicareta {
+    position: absolute;
+    top: 300px;
+    left: 920px;
+    font-size: 40px;
+}
+.nomepa {
+    position:absolute;
+    top: 300px;
+    left: 1275px;
+    font-size: 40px;
+}
+.nomeenchada {
+    position:absolute;
+    top: 300px;
+    left: 1456px;
+    font-size: 40px;
+}
+
+
+
+.table2 {
+    position: absolute;
+    width: 90px;
+    height: auto;
+    top: 40px;
+    left: 1560px;
+}
+
+.logo2 {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+
+.nome47 {
+    position: absolute;
+    top: 8px;
+    left: 400px;
+    width: auto;
+    height: 180px;
+}
+
+.nome48 {
+    position: absolute;
+    top: 8px;
+    left: 500px;
+    width: auto;
+    height: 180px;
+}
+
+.capacete , .peitoral , .calca , .bota , .elaitra {
+    position: relative;
+    width: 200px;
+    height: auto;
+    top: 85px;
+    left: 300px;
+    margin: 40px 0;
+     margin-right: 15px
+}
+
+.nomecapacete {
+    position: absolute;
+    top: 300px;
+    left: 420px;
+    font-size: 40px;
+}
+.nomepeitoral {
+    position: absolute;
+    top: 300px;
+    left: 650px;
+    font-size: 40px;
+}
+.nomecalca {
+    position: absolute;
+    top: 300px;
+    left: 890px;
+    font-size: 40px;
+}
+.nomebota {
+    position:absolute;
+    top: 300px;
+    left: 1110px;
+    font-size: 40px;
+}
+.nomeelaitra {
+    position:absolute;
+    top: 300px;
+    left: 1360px;
+    font-size: 40px;
+}
+
+.nomedesreto {
+    position: absolute;
+    top: 300px;
+    left: 420px;
+    font-size: 40px;
+}
+.nometemplo {
+    position: absolute;
+    top: 300px;
+    left: 655px;
+    font-size: 40px;
+}
+
+.nomeportal {
+    position: absolute;
+    top: 300px;
+    left: 920px;
+    font-size: 40px;
+}
+.nome55 {
+    position: absolute;
+    top: 4px;
+    left: 470px;
+    width: auto;
+    height: 180px;
+}
+
+.deserto{
+    position: relative;
+    width: 450px;
+    height: auto;
+    top: 5px;
+    left: 50px;
+    margin: 40px 0;
+     margin-right: 15px
+}
+.templo{
+    position: relative;
+    width: 450px;
+    height: auto;
+    top: 35px;
+    left: 150px;
+    margin: 40px 0;
+     margin-right: 15px
+}
+.portal{
+    position: relative;
+    width: 450px;
+    height: auto;
+    top: 25px;
+    left: 260px;
+    margin: 40px 0;
+     margin-right: 15px
+}
+
+.nomedesreto {
+    position: absolute;
+    top: 280px;
+    left: 200px;
+    font-size: 40px;
+}
+.nometemplo {
+    position: absolute;
+    top: 280px;
+    left: 800px;
+    font-size: 40px;
+}
+.nomeportal {
+    position: absolute;
+    top: 280px;
+    left: 1400px;
+    font-size: 40px;
+}
+
+.voltar3 {
+    background-color: transparent;
+    height: 80px;
+    width: 300px;
+    border: 10px solid #959698;
+    border-radius: 8px;
+    position: absolute;
+    top: 750px;
+    left: 1490px;
+    color: white;
+    font-size: 35px;
+}
+
+.nome57 {
+    position: absolute;
+    top: 8px;
+    left: 680px;
+    width: auto;
+    height :  150px;
+}
+.lobo{
+    position: absolute;
+    width: 350px;
+    height: auto;
+    top: 130px;
+    left: 120px;
+}
+.cavalo{
+    position: absolute;
+    width: 350px;
+    height: auto;
+    top: 110px;
+    left: 690px;
+}
+.papagaio{
+    position: absolute;
+    width: 230px;
+    height: auto;
+    top: 90px;
+    left: 1350px;
+}
+
+.nomelobo {
+    position: absolute;
+    top: 280px;
+    left: 350px;
+    font-size: 40px;
+}
+.nomecavalo {
+    position: absolute;
+    top: 280px;
+    left: 900px;
+    font-size: 40px;
+}
+.nomepapagaio {
+    position: absolute;
+    top: 280px;
+    left: 1450px;
+    font-size: 40px;
+}
+
+.nome60 {
+    position: absolute;
+    top: 10px;
+    left: 210px;
+    width: auto;
+    height: 170px;
+}
+
+.txt8 {
+    position: absolute;
+    top: 140px;
+    left: 123px;
+    width: 700px;
+    height: auto;
+    text-align: justify;
+    font-size: 35px;
+}
+
+.herebrine {
+    position: absolute;
+    width: auto;
+    height: 500px;
+    top: 36px;
+    left: 110px;
+}
+.lick {
+    position: absolute;
+    width: auto;
+    height: 600px;
+    top: 30px;
+    left: 20px;
+}
+.entidade {
+    position: absolute;
+    width: auto;
+    height: 500px;
+    top: 36px;
+    left: 50px;
+}
+.zumbi {
+    position: absolute;
+    width: auto;
+    height: 350px;
+    top: 36px;
+    left: 120px;
+}
+
+.audio10 {
+    position: absolute;
+    top: 410px;
+    left: 100px;
+}
+
+.aranha {
+    position: absolute;
+    width: auto;
+    height: 360px;
+    top: 2px;
+    left: 45px;
+}
+.audio11 {
+    position: absolute;
+    top: 380px;
+    left: 100px;
+}
+.papagaio1 {
+    position: absolute;
+    width: auto;
+    height: 450px;
+    top: 50px;
+    left: 100px;
+}
+.nome66 {
+    position: absolute;
+    top: 10px;
+    left: 280px;
+    width: auto;
+    height: 170px;
+}
+
+.video {
+    position: absolute;
+    top: 106px;
+    left: 160px;
+    width: 640px;
+    height: 360px;
+}
